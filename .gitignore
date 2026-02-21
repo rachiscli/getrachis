@@ -1,0 +1,87 @@
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==============================
+# Editor / IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+*.env
+*.local
+*.key
+*.pem
+*.crt
+secrets.json
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Node / Static Site Tooling
+# (If you ever use Vite, Next, Astro, etc.)
+# ==============================
+node_modules/
+dist/
+build/
+.out/
+.cache/
+coverage/
+.tmp/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+
+# ==============================
+# LLM / AI Tool Folders
+# ==============================
+.claude/
+.claude-cache/
+.gemini/
+.cursor/
+.copilot/
+.openai/
+.ai/
+.mcp/
+.llm/
+.llm-cache/
+.rachis/
+
+# Claude settings files
+.claude.json
+.claude-settings.json
+
+# Gemini config
+.gemini.toml
+.gemini.json
+
+# Copilot
+.github/copilot/
+
+# ==============================
+# Misc
+# ==============================
+*.bak
+*.backup
+*.orig
